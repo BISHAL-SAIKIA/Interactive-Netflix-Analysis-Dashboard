@@ -1,44 +1,71 @@
-# Interactive-Netflix-Analysis-Dashboard
-This project is a Python-based analysis dashboard for exploring Netflix movie data.
-It includes:
+# 🎬 Netflix Data Analysis Dashboard 📊
 
-✅ User Registration and Login system with OTP verification via Gmail SMTP
-✅ Interactive dashboard to query movie details
-✅ Visualizations of movie trends by year, country, and director
+Welcome to the **Netflix Data Analysis Dashboard**—a Python project that helps you explore movie data interactively!  
 
-🧩 Features
-✅ User Authentication
-New users can register with:
+This project includes:
 
-  *Name
-  
-  *Email
-  
-  *One-Time Password (OTP) sent to their email
+✅ **User Registration & Login with OTP verification**  
+✅ **Interactive Dashboard** to query movie details  
+✅ **Beautiful Visualizations** to understand trends  
 
-Existing users can log in using their email address.
+---
 
-Duplicate registration is prevented.
+## ✨ Features
 
-✅ Dashboard Functionalities
-Once logged in, users can:
+🎯 **User Authentication**
+- 🔐 New users can **register** with name, email, and OTP verification via Gmail SMTP
+- 🔑 Existing users can **log in** securely
+- 🛑 Duplicate registrations are **blocked**
 
-  *Look up movie details:
-  
-  *Release date
-  
-  *Country of origin
-  
-  *Ratings
-  
-  *Duration (minutes)
+🎬 **Dashboard Functionalities**
+Once logged in, you can:
 
-View visualizations:
+1️⃣ **Find movie details:**
+   - 📅 Release Date
+   - 🌍 Country of Origin
+   - ⭐ Ratings
+   - ⏱️ Duration
 
-  *Movie release counts by year (2015–2020)
+2️⃣ **Explore visual trends:**
+   - 📈 Movies released by Year (2015–2020)
+   - 🎥 Movies by Top Directors
+   - 🗺️ Movies by Country
 
-  *Top directors by movie count
+📊 **Data Visualizations**
+Graphs are generated with **matplotlib** to give clear insights.
 
-Movies produced by country
-✅ Data Visualization
-Graphs are generated using matplotlib to help understand trends in the dataset.
+---
+
+## 🚀 How to Run
+1️⃣ Set up MySQL and create the reg_users table:
+
+sql
+Copy
+Edit
+CREATE TABLE reg_users (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255),
+  email VARCHAR(255) UNIQUE
+);
+
+---
+
+## 🛠️ Requirements
+
+🐍 **Python 3.x**
+
+💾 **MySQL Server** with a database named `netflix_data_analysis`
+
+📧 A **Gmail account with an App Password**
+
+📦 **Python Libraries:**
+- `mysql-connector-python`
+- `pandas`
+- `matplotlib`
+- `textblob`
+
+💡 **Install dependencies:**
+
+```bash
+pip install mysql-connector-python pandas matplotlib textblob
+
