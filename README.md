@@ -39,9 +39,6 @@ Graphs are generated with **matplotlib** to give clear insights.
 ## 🚀 How to Run
 1️⃣ Set up MySQL and create the reg_users table:
 
-sql <br/>
-Copy<br/>
-Edit<br/>
 CREATE TABLE reg_users (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(255),
