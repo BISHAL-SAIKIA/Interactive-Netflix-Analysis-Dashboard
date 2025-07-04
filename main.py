@@ -62,9 +62,9 @@ elif inp == 2:
     try:
         s = smtplib.SMTP('smtp.gmail.com', 587)
         s.starttls()
-        s.login('captainyagami08@gmail.com', 'rkhh brso fiex qpnh')  # Replace with your email and password
+        s.login('$$@gmail.com', 'gmail app password')  # Replace with your email and password
         message = f"Subject: {SUBJECT}\n\n{TEXT}"
-        s.sendmail('captainyagami08@gmail.com', email, message)  # Replace '$$' with your sender email
+        s.sendmail('$$.gmail.com', email, message)  # Replace '$$' with your sender email
         s.quit()
         print("An OTP was sent to the entered email address.")
     except Exception as e:
