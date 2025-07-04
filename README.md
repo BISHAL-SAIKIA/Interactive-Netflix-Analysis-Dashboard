@@ -63,6 +63,10 @@ CREATE TABLE reg_users (
 
 💡 **Install dependencies:**
 
-```bash
 pip install mysql-connector-python pandas matplotlib textblob
+
+## 📃 License
+This project is open-source. You can use and adapt it freely.
+
+
 
