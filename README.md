@@ -10,11 +10,11 @@ It includes:
 ✅ User Authentication
 New users can register with:
 
-Name
-
-Email
-
-One-Time Password (OTP) sent to their email
+  -Name
+  
+  -Email
+  
+  -One-Time Password (OTP) sent to their email
 
 Existing users can log in using their email address.
 
@@ -23,21 +23,21 @@ Duplicate registration is prevented.
 ✅ Dashboard Functionalities
 Once logged in, users can:
 
-Look up movie details:
-
-Release date
-
-Country of origin
-
-Ratings
-
-Duration (minutes)
+  -Look up movie details:
+  
+  -Release date
+  
+  -Country of origin
+  
+  -Ratings
+  
+  -Duration (minutes)
 
 View visualizations:
 
-Movie release counts by year (2015–2020)
+  -Movie release counts by year (2015–2020)
 
-Top directors by movie count
+  -Top directors by movie count
 
 Movies produced by country
 ✅ Data Visualization
